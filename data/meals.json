@@ -1,0 +1,7 @@
+[
+{"id": 1	, "category_id": 1	, "title" : "Tarator"				, "products": [ 7, 11, 13, 5, 2, 3, 18 ]},
+{"id": 2	, "category_id": 3	, "title" : "Fried Eggs"			, "products": [ 12, 8, 5, 20 ]},
+{"id": 3	, "category_id": 4	, "title" : "Makaroni na Furna"		, "products": [ 17, 10, 9, 6, 12 ]},
+{"id": 4	, "category_id": 2	, "title" : "Shopska Salata"		, "products": [ 13, 16, 6, 9, 5, 4, 19 ]},
+{"id": 5	, "category_id": 4	, "title" : "Pancakes"				, "products": [ 12, 10, 14, 1, 5, 6, 8 ]}
+]

@@ -1,0 +1,22 @@
+[
+{"id": 1	, "category_id": 1	, "title" : "Baking Soda"	, "unit": "g"},
+{"id": 2	, "category_id": 1	, "title" : "Dill"			, "unit": "g"},
+{"id": 3	, "category_id": 1	, "title" : "Garlic"		, "unit": "g"},
+{"id": 4	, "category_id": 1	, "title" : "Parsley"		, "unit": "g"},
+{"id": 5	, "category_id": 1	, "title" : "Salt"			, "unit": "g"},
+{"id": 6	, "category_id": 1	, "title" : "Sugar"			, "unit": "g"},
+{"id": 7	, "category_id": 1	, "title" : "Water"			, "unit": "g"},
+{"id": 8	, "category_id": 2	, "title" : "Butter"		, "unit": "g"},
+{"id": 9	, "category_id": 2	, "title" : "Cheese Feta"	, "unit": "g"},
+{"id": 10	, "category_id": 2	, "title" : "Milk"			, "unit": "g"},
+{"id": 11	, "category_id": 2	, "title" : "Yghurt"		, "unit": "g"},
+{"id": 12	, "category_id": 3	, "title" : "Eggs"			, "unit": "g"},
+{"id": 13	, "category_id": 6	, "title" : "Cucumbers"		, "unit": "g"},
+{"id": 14	, "category_id": 9	, "title" : "Flour"			, "unit": "g"},
+{"id": 15	, "category_id": 6	, "title" : "Onion"			, "unit": "g"},
+{"id": 16	, "category_id": 6	, "title" : "Tomatoes"		, "unit": "g"},
+{"id": 17	, "category_id": 7	, "title" : "Makroni"		, "unit": "g"},
+{"id": 18	, "category_id": 8	, "title" : "Cooking Oil"	, "unit": "g"},
+{"id": 19	, "category_id": 8	, "title" : "Olive Oil"		, "unit": "g"},
+{"id": 20	, "category_id": 1	, "title" : "Black Pepper"	, "unit": "g"}
+]

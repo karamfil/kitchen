@@ -1,3 +1,32 @@
-<div class="jumbotron">
-	<h1>TBD</h1>
-</div>
+<form class="form-horizontal">
+	<div class="form-group">
+		<label for="categories" class="control-label col-md-1">Category</label>
+		<div class="controls col-md-11">
+			<select id="categories" class="form-control" ui-select2 ng-model="search.category_id">
+				<option value="">Please Choose</option>
+				<option ng-repeat="i in meals_cats" value="{{i.id}}" ng-bind="i.title"></option>
+			</select>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label for="products" class="control-label col-md-1">Products</label>
+		<div class="controls col-md-11">
+			<select id="products" class="form-control" ui-select2 multiple ng-model="search.products">
+				<option ng-repeat="i in products" value="{{i.id}}" ng-bind="i.title"></option>
+			</select>
+		</div>
+	</div>
+	
+	<div class="form-group">
+		<label for="search" class="control-label col-md-1">Search</label>
+		<div class="controls col-md-11">
+			<input type="text" id="search" class="form-control" ng-model="search.title" autocomplete="off" />
+		</div>
+	</div>
+</form>
+
+<ul class="list-group">
+	<li class="list-group-item" ng-repeat="i in meals | filter:isFiltered">{{i.title}}</li>
+	<!-- <li class="list-group-item" ng-show="!items.length">No products found</li> -->
+</ul>

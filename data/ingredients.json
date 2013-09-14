@@ -1,6 +1,0 @@
-[
-{"id": 1	, "category_id": 1	, "title" : "Salt"		, "unit": "g"},
-{"id": 2	, "category_id": 1	, "title" : "Sugar"		, "unit": "g"},
-{"id": 3	, "category_id": 5	, "title" : "Chicken"	, "unit": "g"},
-{"id": 4	, "category_id": 6	, "title" : "Tomatoes"	, "unit": "g"}
-]

@@ -4,7 +4,7 @@
 		<div class="controls col-md-11">
 			<select id="categories" class="form-control" ui-select2 ng-model="search.category_id">
 				<option value=""></option>
-				<option ng-repeat="c in categories" value="{{c.id}}" ng-bind="c.title"></option>
+				<option ng-repeat="i in products_cats" value="{{i.id}}" ng-bind="i.title"></option>
 			</select>
 		</div>
 	</div>
@@ -18,6 +18,6 @@
 </form>
 
 <ul class="list-group">
-	<li class="list-group-item" ng-repeat="i in items | filter:search">{{i.title}}</li>
+	<li class="list-group-item" ng-repeat="i in products | filter:search">{{i.title}}</li>
 	<!-- <li class="list-group-item" ng-show="!items.length">No products found</li> -->
 </ul>
